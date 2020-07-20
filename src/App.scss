@@ -1,0 +1,95 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+$primary-color: #006ae3;
+$primary-grey: #394352;
+$grey-1: #ced6e2;
+$grey-2: #e8eef2;
+$heading-color: $primary-grey;
+$font-color: $primary-grey;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: $heading-color;
+}
+
+.font-11 {
+  font-size: 11px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-19 {
+  font-size: 19px;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-default {
+  color: $font-color !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.search {
+  font-family: 'Roboto Slab', serif;
+}
+.input-group {
+  border-bottom: 2px solid #28a745;
+}
+.search-icon .input-group-text, .form-control{
+  background-color: transparent;
+  border: none;
+}
+.search-input {
+  border-left: none;
+  &:focus {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .forks {
+    line-height: 2.5;
+  }
+}
+
+.avatar {
+  img {
+    height: 1.85rem;
+    width: 1.85rem;
+  }
+  &:not(:first-child) {
+    margin-left: -10px;
+    img {
+      border: 2px solid white;
+    }
+  }
+}
+
+.badge--file-type {
+  background-color: $grey-2;
+  padding: 3px 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.badge--file {
+  border: 1px solid $grey-1;
+  border-radius: 100px;
+  padding: 5px 12px;
+  &:hover {
+    background-color: $grey-2;
+    text-decoration: none;
+  }
+}
