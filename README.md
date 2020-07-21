@@ -35,7 +35,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Assumptions and Future enhancement
 
 * **File structure**
-    If there is a potential of expansion to the application, the file structure has to be different. Such as, grouping the shared components within one folder, separate style files, and redux or hooks can be added.
+    If there is a potential of expansion to the application, the file structure has to be different. For example, grouping the shared components within one folder, separate style files, and redux or hooks can be added.
 
 * **Responsive design**
     Support mobile view by using the bootstrap grid system. Added + more indications to support responsive design.
@@ -44,10 +44,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     There is a limitation of API calls per hour for public users. The search feature will be limited to the users. I added error handling so that users will be aware of the error.
 
 * **Paginations**
-    Lots of users have uploaded multiple gists, adding paginations will help users to reduce scrolling. Get Forks has to be called per gist and due to API calls limitation, had to set the default item per page count to be 5.
+    Lot of users have uploaded multiple gists, adding paginations will help users to reduce scrolling. Get Forks has to be called per gist and due to API calls limitation, had to set the default item per page count to be 5.
 
 * **Duplication of types**
-    To support the requirement, types have to be shown in badges, however, the type can be duplicated within one gist file. Added filter to show unique types
+    To support the requirement, types have to be shown in badge. However, the type can be duplicated within a gist file. Added filter to show unique types
 
 * **Intuitive design**
     Suggestion of the possible input, provided simple and clean UI
