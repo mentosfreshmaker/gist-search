@@ -30,3 +30,35 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+## Assumptions and Future enhancemnt
+
+* **File structure**
+    If there is a potential of expansion to the application, the file structure has to be different. Such as, grouping the shared components within one folder, separate style files, and redux or hooks can be added.
+
+* **Responsive design**
+    Support mobile view by using the bootstrap grid system. Added + more indications to support responsive design.
+
+* **API calls**
+    There is a limitation of API calls per hour for public users. The search feature will be limited to the users. I added error handling so that users will be aware of the error.
+
+* **Paginations**
+    Lots of users have uploaded multiple gists, adding paginations will help users to reduce scrolling. Get Forks has to be called per gist and due to API calls limitation, had to set the default item per page count to be 5.
+
+* **Duplication of types**
+    To support the requirement, types have to be shown in badges, however, the type can be duplicated within one gist file. Added filter to show unique types
+
+* **Intuitive design**
+    Suggestion of the possible input, provided simple and clean UI
+
+* **Possible future enhancement**
+    * Error handling
+    * Search within result
+    * Sort feature
+    * Server-side pagination
+    * Provide options to select item per page
+    * Infinite scroll
+    * Comments and stars can be added in the gist details view
+    * Save search history so that returning users can easily access the latest search
+    * Show file preview within the system - Currently, open a new tab. Dark mode
