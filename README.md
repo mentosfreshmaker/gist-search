@@ -32,7 +32,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## Assumptions and Future enhancemnt
+## Assumptions and Future enhancement
 
 * **File structure**
     If there is a potential of expansion to the application, the file structure has to be different. Such as, grouping the shared components within one folder, separate style files, and redux or hooks can be added.
