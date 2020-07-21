@@ -61,4 +61,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     * Infinite scroll
     * Comments and stars can be added in the gist details view
     * Save search history so that returning users can easily access the latest search
-    * Show file preview within the system - Currently, open a new tab. Dark mode
+    * Show file preview within the system - Currently, open a new tab
+    * Dark mode
